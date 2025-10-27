@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+body {
+    background: radial-gradient(circle at 22% 87%, #6470f7 5%, #82affb 25%, #a5c8f7 60%, #ebf7fe 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.icon{
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+}
+main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor {
+    background: rgba(255, 255, 255, 0.978);
+    border-radius: 25px;
+    padding: 50px 45px;
+    width: 470px;
+    max-width: 90%;
+    text-align: center;
+    position: relative;
+}
+.back-home {
+    position: absolute;
+    top: 17px;
+    left: 25px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.logo-peppo {
+    position: absolute;
+    top: 50px;
+    left:47%;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    font-size: 18px;
+    gap: 8px;
+    text-decoration: none;
+}
+.welcome-text h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: 700;
+}
+.welcome-text p {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 20px;
+}
+.formulario-login {
+    text-align: left;
+}
+.formulario-login label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+.formulario-login input {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 14px;
+    background-color: white;
+}
+.opciones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+.remember-me {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.remember-me input[type="checkbox"] {
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    display: inline-flex;
+    margin: 0;
+    flex-shrink: 0;
+}
+.remember-me input[type="checkbox"]:checked {
+    background-color: #60a9f2;
+}
+.remember-me input[type="checkbox"]:checked::after {
+    content: '\2713';
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+.forgot-password {
+    color: #6377f0;
+    text-decoration: none;
+    font-weight: 500;
+}
+.btn {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 12px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.btn-signin {
+    background-color: #6377f0; 
+    color: white;
+    box-shadow: 0 4px 10px rgba(99, 119, 240, 0.4);
+}
+.btn-google {
+    background-color: white;
+    color: #333;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 12px;
+}
+.btn-google img {
+    width: 20px;
+    height: 20px;
+}
+.signup-link {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #888;
+}
+.signup-link a {
+    color: #6377f0;
+    text-decoration: none;
+    font-weight: 500;
+}
